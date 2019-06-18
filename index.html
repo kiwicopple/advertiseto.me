@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       /* RESETS */
       /* prettier-ignore */
@@ -19,29 +20,28 @@
       /* CUSTOM CSS */
 
       input[type=email], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
 
-input[type=submit] {
-  /* width: 100%; */
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+      input[type=submit] {
+        /* width: 100%; */
+        background-color: rgb(255,0,0);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
 
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
+      input[type=submit]:hover {
+        background-color:  rgb(225, 3, 3);
+      }
 
       body {
         line-height: 1;
@@ -70,6 +70,11 @@ input[type=submit]:hover {
       .has-padding {
         padding: 10px;
       }
+
+      .push {
+        padding-left: 140px
+      }
+
       h1 {
         font-size: 4em;
         font-weight: bold;
@@ -116,10 +121,14 @@ input[type=submit]:hover {
       </article>
     </section>
 
-    <h2 class="has-padding">What we need to solve</h2>
-    <hr />
+     
     <section class="has-padding">
-      <article class="row">
+        <h2 class="has-padding push">What we need to solve</h2>
+        <svg width="2000" height="2" class="push">
+            <line x1="0" y1="0" x2="2000" y2="0" style="stroke:rgb(255,0,0);stroke-width:4" />
+            Sorry, your browser does not support inline SVG.
+        </svg>
+      <article class="row has-padding">
         <div class="has-padding column">
           <p>
             1. There needs to be a simple way for users to file a 
@@ -141,8 +150,11 @@ input[type=submit]:hover {
     </section>
 
 
-    <h2 class="has-padding">Who we are</h2>
-    <hr />
+    <h2 class="has-padding push">Who we are</h2>
+    <svg width="2000" height="2" class="push">
+        <line x1="0" y1="0" x2="2000" y2="0" style="stroke:rgb(255,0,0);stroke-width:4" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
     <section class="has-padding">
       <article class="row">
         <div class="has-padding column">
@@ -155,7 +167,9 @@ input[type=submit]:hover {
           </p>
         </div>
         <div class="has-padding column">
-          <h4>Paul</h4>
+          <h4>
+            <a href="https://www.linkedin.com/in/paulcopplestone/">Paul</a>
+          </h4>
           <p>
             Founder and CTO of Nimbus For Work - previously Founder and CTO of ServisHero. 12+ yrs as a Full Stack developer and 4+ yrs scaling tech teams.
           </p>
@@ -171,13 +185,16 @@ input[type=submit]:hover {
 
 
 
-    <h2 class="has-padding">How you can help</h2>
-    <hr />
+    <h2 class="has-padding push">How you can help</h2>
+    <svg width="2000" height="2" class="push">
+        <line x1="0" y1="0" x2="2000" y2="0" style="stroke:rgb(255,0,0);stroke-width:4" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
     <section class="has-padding">
       <article class="row">
           <p>
-            We have no idea if this is something you want, so if it is, the best way to signal support is by signing up to our mailing list.
-            In the future, we'll need your input to figure out exactly what to build, so the mailing list gives us a way to reach out when we need advice. 
+            First, we need to know if this is something that you want, so if it is, the best way to support us is by signing up to our mailing list.
+            In the future, we'll need your input to figure out exactly what to build, so the mailing list gives us a way to reach out to you when we need advice. 
           </p>
       </article>
     </section>
@@ -199,8 +216,11 @@ input[type=submit]:hover {
     </section>
 
     
-    <h2 class="has-padding">Thank you!</h2>
-    <hr />
+    <h2 class="has-padding push">Thank you!</h2>
+    <svg width="2000" height="2" class="push">
+        <line x1="0" y1="0" x2="2000" y2="0" style="stroke:rgb(255,0,0);stroke-width:4" />
+        Sorry, your browser does not support inline SVG.
+    </svg>
     <section class="has-padding">
       <article class="row">
         <div class="has-padding column">
